@@ -23,6 +23,10 @@ The main objectives of the project were:
 ## Data Pre Processing
 - We have Used Python's Numpy & Pandas Library for Data Cleaning and Preprocessing.
 
+<p align="center"> 
+  <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/911244f3-3f4b-4735-9615-f9035d720ac6" style="display: inline-block; margin: 0 auto; width:800px;">
+</p>
+
 ## Repository Contents
 
 - `Final Code.ipynb`: Jupyter Notebook containing the Python code for data extraction and initial cleaning.
