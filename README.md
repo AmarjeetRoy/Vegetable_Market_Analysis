@@ -48,7 +48,7 @@ The main objectives of the project were:
 
 
 
-## Project Status
+## Summary
 
 This project is currently completed and serves as a demonstration of our skills in data extraction, cleaning, and analysis using Python and Excel. The Python code provided in the repository performs data extraction and initial cleaning tasks, while the Excel files contain additional preprocessing and analysis tasks.
 
