@@ -24,7 +24,7 @@ The main objectives of the project were:
 - We have Used Python's Numpy & Pandas Library for Data Cleaning and Preprocessing.
 
 <p align="center"> 
-  <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/911244f3-3f4b-4735-9615-f9035d720ac6" style="display: inline-block; margin: 0 auto; width:800px;">
+  <img src="https://github.com/AmarjeetRoy/InstaHyre-Job-Analytics-Machine-Learning-/assets/137817362/07264c8d-0d79-4d62-b984-172c4f6a959d" style="display: inline-block; margin: 0 auto; width:800px;">
 </p>
 
 ## Repository Contents
@@ -43,6 +43,7 @@ The main objectives of the project were:
 <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/10cae715-8210-40dd-b9b3-779323dd6801" >
 <br>
 <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/608b2493-f2ed-4785-a6be-9eb4ffe33ab7" >
+
 
 <br>
 
