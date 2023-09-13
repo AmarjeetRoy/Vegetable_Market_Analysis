@@ -10,9 +10,9 @@ This project offers a comprehensive perspective on regional vegetable markets, i
 ## Table of Contents
 - [Aim/Objectives](#aimobjectives)
 - [Problem Statement](#problem-statement)
-- [Folder Structure](#folder-structure)
 - [Tools, Libraries, and Techniques](#tools-libraries-and-techniques)
-- [Overview of Data Exploration](#overview-of-data-exploration)
+- [Data Acquisition: Web Scraping and Preprocessing](#data-acquisition-web-scraping-and-preprocessing)
+- [Analysis Process](#analysis-process)
 - [Primary Insights](#primary-insights)
 - [Summary](#summary)
 - [Learnings and Challenges](#learnings-and-challenges)
@@ -42,28 +42,6 @@ Our project addressed the following key challenges:
 - Comparing vegetable prices across different markets to understand regional variations.
 - Assessing the potential and challenges of the quick-commerce vegetable business in a competitive market like Delhi.
 
-## Folder Structure
-
-Here's the project's folder structure:
-
-| Folder/ File                                      | Description                                                                                                        |
-|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **[Web Scraping & Preprocessing](Web%20Scraping%20&%20Preprocessing)**                  | Contains Python scripts and files for web scraping and preprocessing.                                           |
-|   - [Scraped Data](Web%20Scraping%20&%20Preprocessing/Scraped%20Data)                                | Contains CSV files with scraped data.                                                                             |
-|     - [`CSV_Delhi.csv`](Web%20Scraping%20&%20Preprocessing/Scraped%20Data/CSV_Delhi.csv)                            | CSV file for Delhi market data.                                                                                  |
-|     - [`CSV_Noida.csv`](Web%20Scraping%20&%20Preprocessing/Scraped%20Data/CSV_Noida.csv)                            | CSV file for Noida market data.                                                                                  |
-|     - [`CSV_Agra.csv`](Web%20Scraping%20&%20Preprocessing/Scraped%20Data/CSV_Agra.csv)                             | CSV file for Agra market data.                                                                                   |
-|   - [helper](Web%20Scraping%20&%20Preprocessing/helper)                                        | Contains supporting files for data extraction.                                                                   |
-|     - [`Dates.xlsx`](Web%20Scraping%20&%20Preprocessing/helper/Dates.xlsx)                               | Excel file with date-related information.                                                                        |
-|   - [`Scraping with Preprocessing Code.ipynb`](Web%20Scraping%20&%20Preprocessing/Scraping%20with%20Preprocessing%20Code.ipynb)      | Jupyter Notebook file with combined code for web scraping and preprocessing.                                     |
-|                                                   |                                                                                                                    |
-| **[Analysis](Analysis)**                                      | Contains files related to data analysis and presentations.                                                       |
-|   - [`case study.xlsx`](Analysis/case%20study.xlsx)                            | Excel file with details of the case study.                                                                       |
-|   - [`final excel.xlsm`](Analysis/final%20excel.xlsm)                           | Excel file with analysis and visualizations.                                                                     |
-|                                                   |                                                                                                                    |
-| **[Project Presentation.pptx](Project%20Presentation.pptx)**                    | PowerPoint presentation for the project.                                                                         |
-
-
 ## Tools, Libraries, and Techniques
 
 - **Data Extraction**: We utilized the Selenium library in Python for web scraping.
@@ -71,19 +49,36 @@ Here's the project's folder structure:
 - **Data Analysis**: We used Python libraries such as Pandas and Matplotlib for data analysis and visualization.
 - **Statistical Analysis**: Statistical tests were applied to identify significant trends.
 - **Machine Learning**: We employed clustering algorithms for market segmentation.
+  
+
+## Data Acquisition: Web Scraping and Preprocessing
+
+Our data acquisition process involved web scraping using Python's Selenium library, followed by meticulous data preprocessing. We automated web scraping to retrieve critical details like Date, Vegetable Name, Wholesale Price, Retail Price, Shopping Mall Price, and Units from the Vegetable Market Price website. This process was simplified by utilizing a custom Selenium script, with support from the [`Dates.xlsx`](Web%20Scraping%20&%20Preprocessing/helper/Dates.xlsx) files located in the [Helper](Web%20Scraping%20&%20Preprocessing/helper) Folder. These files helped customize the Selenium code to ensure precise data retrieval. Our entire data extraction and preprocessing operations are encapsulated in a single [`Scraping with Preprocessing Code.ipynb`](Web%20Scraping%20&%20Preprocessing/Scraping%20with%20Preprocessing%20Code.ipynb) for your reference. The scraped and cleaned data can be accessed in the Scraped Data Folder, which contains the following CSV files:
+
+- [CSV_Delhi.csv](Scraped%20Data/CSV_Delhi.csv)
+- [CSV_Noida.csv](Scraped%20Data/CSV_Noida.csv)
+- [CSV_Agra.csv](Scraped%20Data/CSV_Agra.csv)
 
 
-## Overview of Data Exploration
+## Analysis Process
 
-Our data exploration phase involved:
+Our analysis process encompassed two crucial components:
 
-- Data collection from reliable online sources.
-- Cleaning and preprocessing data to handle missing values and inconsistencies.
-- Calculation of average monthly prices for vegetables.
-- Seasonal price index charts to visualize trends.
-- Analysis of income group preferences using charts and statistics.
-- Comparing vegetable prices across Noida, Delhi, and Agra markets.
-- In-depth study of the quick-commerce vegetable business in Delhi.
+**1. Delhi Case Study:**
+   - In-depth exploration of the quick-commerce vegetable business landscape in Delhi.
+   - Evaluation of market size, competition, challenges, and potential.
+   - Findings and insights are documented in the [case study.xlsx](Analysis/case%20study.xlsx) file.
+
+**2. Noida Market Analysis:**
+   - Examination of Noida's vegetable market dynamics.
+   - Comparative analysis with neighboring markets.
+   - Study of seasonal trends and price variations.
+   - Segmentation by price buckets and income groups.
+   - Detailed insights are presented in the [final excel.xlsm](Analysis/final%20excel.xlsm) file.
+
+These two distinct analyses shed light on different facets of the vegetable market. You can refer to the respective files for comprehensive insights into each aspect.
+
+
 
 ## Visulization
 <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/10cae715-8210-40dd-b9b3-779323dd6801" >
