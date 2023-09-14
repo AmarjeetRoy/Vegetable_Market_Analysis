@@ -1,6 +1,6 @@
 <h1 align="center"> Vegetable Market Analysis </h1>
 
-<img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/537afe1f-a23b-48bb-8756-1d49a152186e" >
+<img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/1bd4615f-299c-4c5e-80ca-f602ddc08a50" >
 <br>
 
 ## 👁️Project Overview
