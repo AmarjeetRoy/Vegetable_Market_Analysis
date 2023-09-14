@@ -9,7 +9,7 @@ The **Vegetable Market Analysis** project, leveraging data from **Website:** htt
 
 This project offers a comprehensive perspective on regional vegetable markets, incorporating data-driven insights and systematic analysis to uncover trends and patterns.
 
-## Table of Contents
+## 📋Table of Contents
 - [`Aim/Objectives`](#aimobjectives)
 - [`Problem Statement`](#problem-statement)
 - [`Tools, Libraries, and Techniques`](#tools-libraries-and-techniques)
@@ -133,7 +133,7 @@ In conclusion, the Vegetable Market Analysis project provided valuable insights 
 - Data extraction from online sources can be challenging and time-consuming.
 - Analyzing and visualizing complex price
 
-### Future Scope
+### 🧰Future Scope
 
 In the future, this project can be expanded by incorporating additional data sources, conducting further analysis on specific vegetable types, and exploring additional markets. The insights gained from this project can be used to develop strategies for farmers, retailers, and consumers in the vegetable market.
 
