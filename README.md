@@ -8,14 +8,14 @@ The **Vegetable Market Analysis** project, leveraging data from **Website:** htt
 This project offers a comprehensive perspective on regional vegetable markets, incorporating data-driven insights and systematic analysis to uncover trends and patterns.
 
 ## Table of Contents
-- [Aim/Objectives](#aimobjectives)
-- [Problem Statement](#problem-statement)
-- [Tools, Libraries, and Techniques](#tools-libraries-and-techniques)
-- [Data Acquisition: Web Scraping and Preprocessing](#data-acquisition-web-scraping-and-preprocessing)
-- [Analysis Process](#analysis-process)
-- [Primary Insights](#primary-insights)
-- [Summary](#summary)
-- [Learnings and Challenges](#learnings-and-challenges)
+- [`Aim/Objectives`](#aimobjectives)
+- [`Problem Statement`](#problem-statement)
+- [`Tools, Libraries, and Techniques`](#tools-libraries-and-techniques)
+- [`Data Acquisition: Web Scraping and Preprocessing`](#data-acquisition-web-scraping-and-preprocessing)
+- [`Analysis Process`](#analysis-process)
+- [`Primary Insights`](#primary-insights)
+- [`Summary`](#summary)
+- [`Learnings and Challenges`](#learnings-and-challenges)
 
 
 ## Aim/Objectives
@@ -53,11 +53,11 @@ Our project addressed the following key challenges:
 
 ## Data Acquisition: Web Scraping and Preprocessing
 
-Our data acquisition process involved web scraping using Python's Selenium library, followed by meticulous data preprocessing. We automated web scraping to retrieve critical details like Date, Vegetable Name, Wholesale Price, Retail Price, Shopping Mall Price, and Units from the Vegetable Market Price website. This process was simplified by utilizing a custom Selenium script, with support from the [`Dates.xlsx`](Web%20Scraping%20&%20Preprocessing/helper/Dates.xlsx) files located in the [Helper](Web%20Scraping%20&%20Preprocessing/helper) Folder. These files helped customize the Selenium code to ensure precise data retrieval. Our entire data extraction and preprocessing operations are encapsulated in a single [`Scraping with Preprocessing Code.ipynb`](Web%20Scraping%20&%20Preprocessing/Scraping%20with%20Preprocessing%20Code.ipynb) for your reference. The scraped and cleaned data can be accessed in the Scraped Data Folder, which contains the following CSV files:
+Our data acquisition process involved web scraping using Python's Selenium library, followed by meticulous data preprocessing. We automated web scraping to retrieve critical details like Date, Vegetable Name, Wholesale Price, Retail Price, Shopping Mall Price, and Units from the Vegetable Market Price website. This process was simplified by utilizing a custom Selenium script, with support from the [`Dates.xlsx`](Web%20Scraping%20&%20Preprocessing/helper/Dates.xlsx) files located in the [`Helper`](Web%20Scraping%20&%20Preprocessing/helper) Folder. These files helped customize the Selenium code to ensure precise data retrieval. Our entire data extraction and preprocessing operations are encapsulated in a single [`Scraping with Preprocessing Code.ipynb`](Web%20Scraping%20&%20Preprocessing/Scraping%20with%20Preprocessing%20Code.ipynb) for your reference. The scraped and cleaned data can be accessed in the Scraped Data Folder, which contains the following CSV files:
 
-- [CSV_Delhi.csv](Scraped%20Data/CSV_Delhi.csv)
-- [CSV_Noida.csv](Scraped%20Data/CSV_Noida.csv)
-- [CSV_Agra.csv](Scraped%20Data/CSV_Agra.csv)
+- [`CSV_Delhi.csv`](Scraped%20Data/CSV_Delhi.csv)
+- [`CSV_Noida.csv`](Scraped%20Data/CSV_Noida.csv)
+- [`CSV_Agra.csv`](Scraped%20Data/CSV_Agra.csv)
 
 
 ## Analysis Process
@@ -67,14 +67,14 @@ Our analysis process encompassed two crucial components:
 **1. Delhi Case Study:**
    - In-depth exploration of the quick-commerce vegetable business landscape in Delhi.
    - Evaluation of market size, competition, challenges, and potential.
-   - Findings and insights are documented in the [case study.xlsx](Analysis/case%20study.xlsx) file.
+   - Findings and insights are documented in the [`case study.xlsx`](Analysis/case%20study.xlsx) file.
 
 **2. Noida Market Analysis:**
    - Examination of Noida's vegetable market dynamics.
    - Comparative analysis with neighboring markets.
    - Study of seasonal trends and price variations.
    - Segmentation by price buckets and income groups.
-   - Detailed insights are presented in the [final excel.xlsm](Analysis/final%20excel.xlsm) file.
+   - Detailed insights are presented in the [`final excel.xlsm`](Analysis/final%20excel.xlsm) file.
 
 These two distinct analyses shed light on different facets of the vegetable market. You can refer to the respective files for comprehensive insights into each aspect.
 
