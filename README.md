@@ -1,6 +1,7 @@
 <h1 align="center"> Vegetable Market Analysis </h1>
 
 <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/537afe1f-a23b-48bb-8756-1d49a152186e" >
+<br>
 
 ## 👁️Project Overview
 
@@ -8,6 +9,8 @@
 The **Vegetable Market Analysis** project, leveraging data from **Website:** https://vegetablemarketprice.com, delves deep into Noida's vibrant vegetable market along with neighboring markets in Delhi and Agra. It encompasses a multifaceted exploration of these dynamic sectors, including meticulous data collection, rigorous preprocessing, insightful trend analysis, and meticulous seasonal variation examination. Furthermore, it offers a keen understanding of the diverse preferences within income groups. To broaden the horizon, the project extends to a comprehensive case study on the quick-commerce vegetable business landscape in Delhi.
 
 This project offers a comprehensive perspective on regional vegetable markets, incorporating data-driven insights and systematic analysis to uncover trends and patterns.
+
+<br>
 
 ## 📋Table of Contents
 - [`Aim/Objectives`](#aimobjectives)
@@ -18,7 +21,7 @@ This project offers a comprehensive perspective on regional vegetable markets, i
 - [`Primary Insights`](#primary-insights)
 - [`Summary`](#summary)
 - [`Learnings and Challenges`](#learnings-and-challenges)
-
+<br>
 
 ## 🎯Aim/Objectives
 
@@ -34,6 +37,8 @@ Our project aimed to:
 
 5. **Quick-Commerce Study**: Conduct a comprehensive study on the potential and challenges of the quick-commerce vegetable business in Delhi.
 
+<br>
+
 ## ⛑️Problem Statement
 
 Our project addressed the following key challenges:
@@ -44,6 +49,8 @@ Our project addressed the following key challenges:
 - Comparing vegetable prices across different markets to understand regional variations.
 - Assessing the potential and challenges of the quick-commerce vegetable business in a competitive market like Delhi.
 
+<br>
+
 ## ⚙️Tools, Libraries, and Techniques
 
 - **Data Extraction**: We utilized the Selenium library in Python for web scraping.
@@ -52,6 +59,7 @@ Our project addressed the following key challenges:
 - **Statistical Analysis**: Statistical tests were applied to identify significant trends.
 - **Machine Learning**: We employed clustering algorithms for market segmentation.
   
+<br>
 
 ## ⚓Data Acquisition: Web Scraping and Preprocessing
 
@@ -61,6 +69,7 @@ Our data acquisition process involved web scraping using Python's Selenium libra
 - [`CSV_Noida.csv`](Scraped%20Data/CSV_Noida.csv)
 - [`CSV_Agra.csv`](Scraped%20Data/CSV_Agra.csv)
 
+<br>
 
 ## 🔍Analysis Process
 
@@ -80,14 +89,14 @@ Our analysis process encompassed two crucial components:
 
 These two distinct analyses shed light on different facets of the vegetable market. You can refer to the respective files for comprehensive insights into each aspect.
 
-
+<br>
 
 ## 📊Visulization
 <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/10cae715-8210-40dd-b9b3-779323dd6801" >
-<br>
+<br><br>
 <img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/608b2493-f2ed-4785-a6be-9eb4ffe33ab7" >
 
-<br>
+<br><br>
 
 
 ## 💡Primary Insights
@@ -114,12 +123,11 @@ Our analysis yielded the following key insights:
 
 - Delhi's thriving economy, rising disposable income levels, and increasing internet penetration indicated a lucrative market for quick-commerce vegetable businesses. The urban lifestyle and busy demographic further underscored the demand for convenient online grocery shopping.
 
+<br>
 
 ## 💼Summary
 
 In conclusion, the Vegetable Market Analysis project provided valuable insights into the dynamics of the Noida vegetable market. Our analysis of price trends, seasonal variations, income group preferences, and market comparisons highlighted key trends and opportunities. The study of the quick-commerce vegetable business in Delhi unveiled a promising market with specific challenges. Our findings serve as a valuable resource for stakeholders in the vegetable market.
-
-## 🎗️Learnings and Challenges
 
 ### 🎗️Learnings
 
