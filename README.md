@@ -1,6 +1,6 @@
 # Vegetable Market Analysis
 
-<img sr="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/537afe1f-a23b-48bb-8756-1d49a152186e" >
+<img src="https://github.com/AmarjeetRoy/Vegetable_Market_Analysis/assets/137817362/537afe1f-a23b-48bb-8756-1d49a152186e" >
 
 ## Project Overview
 
